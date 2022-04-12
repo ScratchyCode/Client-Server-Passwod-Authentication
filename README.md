@@ -7,7 +7,9 @@ Python, Socket programming
 
 ## IMPLEMENTATION (python3)
 SERVER: socket with multithreading
+
 CLIENT: socket
+
 HASH: SHA256 (using pythons hashlib)
 
 ```
