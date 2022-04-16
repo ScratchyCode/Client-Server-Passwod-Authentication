@@ -1,5 +1,7 @@
 # Password based authentication
-Privacy oriented Client-Server program which will facilitate a client to register itself to the server. A server should keep a table of user-hash (password) entry for each user. No password is sent in clear text. 
+Privacy oriented Client-Server program which will facilitate a client to register itself to the server. A server should keep a table of user-hash (password) entry for each user.
+
+In this fork, unlike the main version, no password is sent in clear text. 
 
 This program registers user with username, password and stores password hash in dictonary. Also, when a user tries to login, password validation occurs.
 
