@@ -21,9 +21,13 @@ INPUT (client side)
 ```
 ```
 OUPUT
+
 1. Registeration successful: new user
 2. Connection successful: password correct
 3. Login failed: password incorrect
 
 Hash table: Contains User and Password. It is implemented using python Dictionary data structure
 ```
+
+# Man-in-the-middle attack
+Although the password is no longer transmitted in clear text, if the communication channel is not asymmetrically encrypted, the hash can be intercepted and that would be enough to allow unauthorized authentication by presenting the intercepted hash.
